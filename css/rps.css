@@ -10,6 +10,7 @@ body {
   font-family: "Nunito", sans-serif;
   background-image: linear-gradient(to bottom right, #7c44a1 0%, #da6935 100%);
   color: #272727;
+  margin: 0;
 }
 
 .game {
