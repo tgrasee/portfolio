@@ -1,6 +1,6 @@
 /* header.css */
 
-header {
+header-component {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
