@@ -37,7 +37,6 @@ headerTemplate.innerHTML = `
             color: #e5e7eb;
         }
     </style>
-    <header>
         <h3><a href="/portfolio/index.html">Tyler Grasee</a></h3>
         <nav>
             <ul>
@@ -46,7 +45,6 @@ headerTemplate.innerHTML = `
                 <li><a href="/portfolio/projects/rockpaperscissors/rps.html">RPS Game</a></li>       
             </ul>
         </nav>
-    </header>
 `;
 
 class Header extends HTMLElement {
