@@ -1,7 +1,6 @@
 const headerTemplate = document.createElement('template');
 
-headerTemplate.innerHTML = `
-    // <style>
+// <style>
     //     header {
     //         background-color: #1F2937;
     //         display: flex;
@@ -23,6 +22,8 @@ headerTemplate.innerHTML = `
     //         color: #e5e7eb;
     //     }
     // </style>
+
+headerTemplate.innerHTML = `
     <header>
         <h3><a href="/portfolio/index.html">Tyler Grasee</a></h3>
         <nav>
