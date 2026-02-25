@@ -24,6 +24,19 @@ const headerTemplate = document.createElement('template');
     // </style>
 
 headerTemplate.innerHTML = `
+    <style>
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 16px;
+            color: white;
+        }
+
+        a {
+            text-decoration: none;
+            color: #e5e7eb;
+        }
+    </style>
     <header>
         <h3><a href="/portfolio/index.html">Tyler Grasee</a></h3>
         <nav>
