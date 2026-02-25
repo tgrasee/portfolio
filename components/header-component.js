@@ -36,6 +36,10 @@ headerTemplate.innerHTML = `
             text-decoration: none;
             color: #e5e7eb;
         }
+
+        a:hover {
+            color: #9ca3af;
+        }
     </style>
         <h3><a href="/portfolio/index.html">Tyler Grasee</a></h3>
         <nav>
