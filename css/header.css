@@ -8,15 +8,3 @@ header-component {
     padding: 0 48px 0;
     color: white;
 }
-
-ul {
-    display: flex;
-    list-style: none;
-    gap: 16px;
-    color: white;
-}
-
-a {
-    text-decoration: none;
-    color: #e5e7eb;
-}
