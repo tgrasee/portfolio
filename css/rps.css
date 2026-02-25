@@ -1,0 +1,102 @@
+/* rps.css */
+
+* {
+  padding: o;
+  margin: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  background-image: linear-gradient(to bottom right, #7c44a1 0%, #da6935 100%);
+  color: #272727;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  position: absolute;
+  text-transform: uppercase;
+  top: 10px;
+  font-size: 4rem;
+  /* z-index: 2; */
+}
+
+.score {
+  display: flex;
+  width: 30vw;
+  justify-content: center;
+  /* position: absolute; */
+  top: 200px;
+  /* z-index: 1; */
+}
+
+.playerScore,
+.computerScore {
+  padding-inline: 5rem;
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.playerCount,
+.computerCount {
+  text-align: center;
+  font-weight: 300;
+  font-size: 8rem;
+  margin-top: 1rem;
+}
+
+.buttons {
+  display: flex;
+  padding-bottom: 15px;
+  width: 50vw;
+  justify-content: space-evenly;
+  margin-top: 2rem;
+}
+
+.results {
+  position: fixed;
+  bottom: 25%;
+}
+
+.restartBtn {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 0.8rem;
+  width: 100px;
+  border-radius: 10px;
+  background: #008000;
+  outline: none;
+  border-color: #008000;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
+
+#rock,
+#paper,
+#scissors {
+  padding: 0.8rem;
+  width: 100px;
+  border-radius: 10px;
+  background: #008000;
+  outline: none;
+  border-color: #008000;
+  border: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: 400;
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.1);
+}
