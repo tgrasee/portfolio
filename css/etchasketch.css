@@ -1,0 +1,57 @@
+/* etchasketch.css */
+
+body {
+  font-family: Arial, Helvetica, sans-serif, Courier, monospace, apple-system;
+  background-color: lightblue;
+  margin: 10px;
+}
+
+#title {
+  font-size: 48px;
+  background-image: linear-gradient(15deg, red, blue);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.canvas {
+  display: flex;
+  justify-content: center;
+}
+
+#grid {
+  height: 500px;
+  width: 500px;
+  border: 10px solid lightpink;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin: 1vw;
+}
+
+.row {
+  display: flex;
+  background-color: white;
+  flex: 1;
+}
+
+.column {
+  border: 1px solid rgb(0, 0, 0);
+  flex: 1;
+}
+
+#title, .buttons, .radioBtns {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+.buttons, .radioBtns {
+  margin: 2px;
+  gap: 10px;
+}
+
+#gridSize, #clearBtn {
+  margin: 8px;
+  border-radius: 12px;
+}
