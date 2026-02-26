@@ -59,11 +59,11 @@ function changeColor() {
 function sizePrompt() {
   let row = prompt("Please enter how many rows for the new grid", "16");
   let column = prompt("Please enter how many columns for the new grid", "16");
-  while (isNaN(row) === true || isNaN(column) === true) {
-    if (isNaN(row) === true) {
+  while (isNaN(Number(row)) === true || isNaN(Number(column)) === true) {
+    if (isNaN(Number(row)) === true) {
       row = prompt("Please enter a number for rows", "16");
     }
-    else if (isNaN(column) === true) {
+    else if (isNaN(Number(column)) === true) {
       column = prompt("Please enter a number for columns", "16");
     }
   }
@@ -73,7 +73,7 @@ function sizePrompt() {
   if (column < 0 || column > 99) {
     column = prompt("Please enter a number of columns between 0 and 99", "16");
   }
-  makeGrid(row, column);
+  makeGrid(Number(row), Number(column));
 }
 
 // Creates default grid size of 16 x 16.
