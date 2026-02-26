@@ -21,6 +21,10 @@ body {
     justify-content: center;
 }
 
+.margin-top {
+    margin-top: 2rem;
+}
+
 .flex-col {
     flex-direction: column;
 }
