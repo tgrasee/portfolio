@@ -67,7 +67,7 @@ body {
 }
 
 .results {
-  transform: translateY(-10rem);
+  transform: translateY(-16rem);
 }
 
 .restartBtn {
@@ -115,4 +115,6 @@ body {
 .restartContainer {
   display: flex;
   justify-content: center;
+  align-items: center;
+  transform: translateY(-10rem);
 }
