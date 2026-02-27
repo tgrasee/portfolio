@@ -111,3 +111,8 @@ body {
   background: #006400;
   border-color: #006400;
 }
+
+.restartContainer {
+  display: flex;
+  justify-content: center;
+}
