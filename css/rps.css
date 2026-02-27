@@ -63,6 +63,7 @@ body {
   padding-bottom: 5rem;
   width: 50vw;
   justify-content: space-evenly;
+  transform: translateY(-5rem);
   /* margin-top: 2rem; */
 }
 
