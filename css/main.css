@@ -27,9 +27,8 @@ body {
     margin-top: 2rem;
 }
 
-.margin-lr {
-    margin-left: auto;
-    margin-right: auto;
+.margin-auto {
+    margin: auto;
 }
 
 .flex-col {
