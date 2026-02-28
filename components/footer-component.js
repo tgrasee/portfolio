@@ -1,4 +1,4 @@
-const footerTemplate = document.createElement('template');
+const footerTemplate = document.createElement('fTemplate');
 
 // <style>
     //     header {
