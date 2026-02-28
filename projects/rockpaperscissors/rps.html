@@ -11,39 +11,41 @@
         <script src="/portfolio/components/footer-component.js" defer></script>
     </head>
 
-    <body>
+    <body class="flex flex-col min-h">
         <header-component></header-component>
-        <section class="game">
-            <h1 class="title">Rock Paper Scissors</h1>
-            <div class="container">
-                <div class="flex flex-col">
-                    <div class="font-size line-height">
-                        <p>This is a Rock Paper Scissors game built with HTML, CSS, and JavaScript.
-                            The player can choose between rock, paper, and scissors, and the computer will randomly choose one as well. 
-                            The game will then determine the winner and keep track of the score.
-                        </p>
+        <main class="flex flex-grow">
+            <section class="game">
+                <h1 class="flex justify-cont margin-top">Rock Paper Scissors</h1>
+                <div class="container">
+                    <div class="flex flex-col">
+                        <div class="font-size line-height">
+                            <p>This is a Rock Paper Scissors game built with HTML, CSS, and JavaScript.
+                                The player can choose between rock, paper, and scissors, and the computer will randomly choose one as well. 
+                                The game will then determine the winner and keep track of the score.
+                            </p>
+                        </div>
+                    </div>  
+                </div>
+
+                <div class="score">
+                    <div class="playerScore">
+                        <h2>Player</h2>
+                        <p class="playerCount">0</p>
                     </div>
-                </div>  
-            </div>
 
-            <div class="score">
-                <div class="playerScore">
-                    <h2>Player</h2>
-                    <p class="playerCount">0</p>
+                    <div class="computerScore">
+                        <h2>Computer</h2>
+                        <p class="computerCount">0</p>
+                    </div>
                 </div>
-
-                <div class="computerScore">
-                    <h2>Computer</h2>
-                    <p class="computerCount">0</p>
+                <div class="buttons">
+                    <button id="rock">Rock</button>
+                    <button id="paper">Paper</button>
+                    <button id="scissors">Scissors</button> 
                 </div>
-            </div>
-            <div class="buttons">
-                <button id="rock">Rock</button>
-                <button id="paper">Paper</button>
-                <button id="scissors">Scissors</button> 
-            </div>
-            <div class="results"></div>
+                <div class="results"></div>
         </section>
+        </main>
         <footer-component></footer-component>
     </body>
 </html>
