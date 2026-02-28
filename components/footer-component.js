@@ -12,7 +12,7 @@ class Footer extends HTMLElement {
   }
 
   connectedCallback() {
-    const shadowRoot = this.attachShadow({ mode: 'open' });
+    const shadowRoot = this.attachShadow({ mode: 'closed' });
 
     shadowRoot.appendChild(footerTemplate.content);
   }
