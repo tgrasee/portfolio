@@ -20,4 +20,7 @@ footer-component {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
     color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
