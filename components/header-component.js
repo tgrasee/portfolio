@@ -41,7 +41,7 @@ headerTemplate.innerHTML = `
             color: #9ca3af;
         }
     </style>
-        <h3><a href="/">Tyler Grasee</a></h3>
+        <h3><a href="/portfolio">Tyler Grasee</a></h3>
         <nav>
             <ul>
                 <li><a href="/portfolio/projects/googlemapapi/googleapi.html">Google Map API</a></li>
