@@ -29,6 +29,10 @@ body {
     flex-direction: column;
 }
 
+.flex-row {
+    flex-direction: row;
+}
+
 .flex-grow {
     flex-grow: 1;
 }
