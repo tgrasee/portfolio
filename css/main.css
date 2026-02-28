@@ -21,6 +21,10 @@ body {
     justify-content: center;
 }
 
+.justify-cont-sb {
+    justify-content: space-between;
+}
+
 .margin-top {
     margin-top: 2rem;
 }
