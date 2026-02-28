@@ -5,6 +5,7 @@ const playerScoreBoard = document.querySelector(".playerCount");
 const computerScoreBoard = document.querySelector(".computerCount");
 const result = document.querySelector(".results");
 const buttons = document.querySelector(".buttons");
+const mainElement = document.querySelector("main");
 const restartContainer = document.createElement("div");
 const restart = document.createElement("button");
 restartContainer.className = "restartContainer";
@@ -77,7 +78,7 @@ function gameOver() {
 
   // Add restart button
   restartContainer.append(restart);
-  document.body.append(restartContainer);
+  mainElement.appendChild(restartContainer);
   restart.textContent = "Restart";
   restart.addEventListener("click", () => {
     window.location.reload();
